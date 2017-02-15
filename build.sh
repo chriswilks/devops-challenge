@@ -1,3 +1,3 @@
 #!/bin/bash
 
-go build -o bin/hello-app hello-app/app.go
+go build -o hello-app/bin/ hello-app/src/app.go
