@@ -1,3 +1,6 @@
 .idea/
 bin/
 *.iml
+.terraform/
+*.tfstate
+*.tfstate.backup

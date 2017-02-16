@@ -24,3 +24,13 @@ variable "user" {
 variable "environment" {
   description = "The name of the environment that the user wants to create."
 }
+
+variable "access_key" {
+  description = "The AWS access key"
+  default = "--REMOVED--"
+}
+
+variable "secret_key" {
+  description = "The AWS secret key"
+  default = "--REMOVED--"
+}
