@@ -9,7 +9,6 @@ variable "servers" {
 
 variable "web_instance_ami" {
   description = "The AMI for the web server."
-  default = "ami-30361056"
 }
 
 variable "web_instance_type" {

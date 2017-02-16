@@ -1,7 +1,7 @@
-resource "aws_launch_config" "web_aws" {
-  name_prefix = "${var.user}-${var.environment}-web-server-"
+resource "aws_launch_configuration" "web_lc" {
+  name_prefix = "${var.user}-${var.environment}-hello-app-"
   security_groups = [
-    "${aws_security_group.web.id}"
+    "${aws_security_group.web_sg.id}"
   ]
 
   image_id = "${var.web_instance_ami}"

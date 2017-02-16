@@ -16,7 +16,7 @@
   "provisioners" : [
     {
       "type": "file",
-      "source": "hello-app/bin/hello-app",
+      "source": "hello-app/bin/hello-app2",
       "destination": "/tmp/hello-app"
     },
     {

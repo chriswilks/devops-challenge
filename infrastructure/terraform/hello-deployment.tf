@@ -2,7 +2,7 @@ module "web_app" {
   source = "web_app"
   servers = 2
 
-  #web_instance_ami = ""
+  web_instance_ami = "${var.web_instance_ami}"
   web_instance_type = "t2.micro"
 
   user = "${var.user}"
