@@ -22,6 +22,6 @@ resource "aws_instance" "web_instance" {
 
   instance_type = "${var.web_instance_type}"
   tags {
-    Name = "${var.user}-${var.environment}-web-app"
+    Name = "${var.user}-${var.environment}-hello-app"
   }
 }
