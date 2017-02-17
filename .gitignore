@@ -5,3 +5,4 @@ bin/
 *.tfstate
 *.tfstate.backup
 manifest.json
+nginx.conf

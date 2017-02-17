@@ -6,4 +6,6 @@ resource "aws_launch_configuration" "web_lc" {
 
   image_id = "${var.web_instance_ami}"
   instance_type = "${var.web_instance_type}"
+
+  key_name = "chris-mac-ssh-key"
 }
